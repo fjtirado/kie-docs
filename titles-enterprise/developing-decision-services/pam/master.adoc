@@ -1,0 +1,32 @@
+:PAM:
+
+////
+// @Misha: The following content is duplicated from title.adoc for now so it can build. Need to update build script so that we can use something like this include like before, and then delete all other file content here. Might require unsafe mode to go up a level (ifdef::safe-mode-unsafe[]).
+
+include::../title.adoc[]
+
+I suggest this instead of the legacy `include::topics/main.adoc`, unless you know of reasons against it.
+
+You can just focus on getting this one title building from an include like the above, for PAM and DM. Once you have it working, I'll take care of all the clean-up of all other titles, which are likewise currently duplicated for now.
+////
+
+[id='title-developing-decision-services']
+include::_artifacts/document-attributes.adoc[]
+
+= Developing decision services in {PRODUCT}
+:context: developing-decision-services
+:imagesdir: _images
+
+As a developer of business decisions, you can use {PRODUCT} to develop decision services using Decision Model and Notation (DMN) models, Drools Rule Language (DRL) rules, guided decision tables, and other rule-authoring assets.
+
+// Assembly includes
+include::assemblies/assembly-dmn-models.adoc[]
+include::assemblies/assembly-drl-rules.adoc[]
+include::assemblies/assembly-guided-decision-tables.adoc[]
+include::assemblies/assembly-decision-tables.adoc[]
+
+// Versioning info
+include::_artifacts/versioning-information.adoc[]
+
+// Contact information
+include::_artifacts/author-group.adoc[]

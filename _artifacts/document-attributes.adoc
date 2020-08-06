@@ -61,11 +61,11 @@ include::document-attributes-op.adoc[]
 endif::OP[]
 
 //For source includes
-:drools-dir: drools-docs/src/main/asciidoc
-:jbpm-dir: jbpm-docs/src/main/asciidoc
-:op-dir: optaplanner-wb-es-docs/src/main/asciidoc
-:shared-dir: shared-kie-docs/src/main/asciidoc
-:enterprise-dir: enterprise-only
+:drools-dir: ../doc-content/drools-docs/src/main/asciidoc
+:jbpm-dir: ../doc-content/jbpm-docs/src/main/asciidoc
+:op-dir: ../doc-content/optaplanner-wb-es-docs/src/main/asciidoc
+:shared-dir: ../doc-content/shared-kie-docs/src/main/asciidoc
+:enterprise-dir: ../doc-content/enterprise-only
 
 // Product names
 :PRODUCT_PAM: Red Hat Process Automation Manager
