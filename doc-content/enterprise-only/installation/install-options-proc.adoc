@@ -1,4 +1,4 @@
-[id='install-options-proc']
+[id='install-options-proc_{context}']
 = Installation options
 
 Depending on your environment and project requirements, choose one of the following installation options:

@@ -1,4 +1,4 @@
-[id='clustering-ps-install-proc']
+[id='clustering-ps-install-proc_{context}']
 = Starting the cluster and distributing {KIE_SERVER}
 After you have configured a {EAP} cluster and repackaged {KIE_SERVER}, you must start the cluster and distribute the repackaged `kie-server.war` file.
 

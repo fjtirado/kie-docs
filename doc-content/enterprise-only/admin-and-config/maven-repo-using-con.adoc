@@ -1,4 +1,4 @@
-[id='maven-repo-using-con']
+[id='maven-repo-using-con_{context}']
 
 = Maven settings and repositories for {PRODUCT}
 
