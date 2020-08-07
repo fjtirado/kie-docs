@@ -1,13 +1,8 @@
-[id='assembly_test-scenarios']
-
-include::_artifacts/document-attributes.adoc[]
-
+[id='assembly-test-scenarios']
 = Testing a decision service using test scenarios
+ifdef::context[:parent-context: {context}]
 // Context attribute is assembly specific and enables module reuse between assemblies.
-:doctype: book
-:imagesdir: _images
 :context: test-scenarios
-include::_artifacts/author-group.adoc[]
 
 // Purpose statement for the assembly
 As a business analyst or business rules developer, you can use test scenarios in {CENTRAL} to test a decision service before a project is deployed. You can test DMN-based and rules-based decision services to ensure these are functioning properly and as expected. Also, you can test a decision service at any time during project development.
@@ -89,5 +84,5 @@ include::{drools-dir}/AuthoringAssets/test-scenarios-comparison-legacy-new-ref.a
 == Next steps
 {URL_PACKAGING_DEPLOYING_PROJECT}[_{PACKAGING_DEPLOYING_PROJECT}_]
 
-// Versioning info
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]

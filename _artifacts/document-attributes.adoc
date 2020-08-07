@@ -66,6 +66,7 @@ endif::OP[]
 :op-dir: ../doc-content/optaplanner-wb-es-docs/src/main/asciidoc
 :shared-dir: ../doc-content/shared-kie-docs/src/main/asciidoc
 :enterprise-dir: ../doc-content/enterprise-only
+:content-dir: ../../
 
 // Product names
 :PRODUCT_PAM: Red Hat Process Automation Manager

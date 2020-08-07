@@ -1,13 +1,8 @@
-[id='assembly_guided-rules']
-
-include::_artifacts/document-attributes.adoc[]
-
+[id='assembly-guided-rules']
 = Designing a decision service using guided rules
+ifdef::context[:parent-context: {context}]
 // Context attribute is assembly specific and enables module reuse between assemblies.
-:doctype: book
-:imagesdir: _images
 :context: guided-rules
-include::_artifacts/author-group.adoc[]
 
 // Purpose statement for the assembly
 As a business analyst or business rules developer, you can define business rules using the guided rules designer in {CENTRAL}. These guided rules are compiled into Drools Rule Language (DRL) and form the core of the decision service for your project.
@@ -52,5 +47,5 @@ include::{enterprise-dir}/admin-and-config/assets-executing-proc.adoc[leveloffse
 * {URL_TESTING_DECISION_SERVICE}[_{TESTING_DECISION_SERVICE}_]
 * {URL_PACKAGING_DEPLOYING_PROJECT}[_{PACKAGING_DEPLOYING_PROJECT}_]
 
-// Versioning info
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]
