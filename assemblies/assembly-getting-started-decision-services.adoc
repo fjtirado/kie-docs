@@ -1,13 +1,8 @@
-[id='assembly_decision-services-getting-started']
-
-include::_artifacts/document-attributes.adoc[]
-
-= Getting started with decision services
+[id='assembly-getting-started-decision-services']
+= Getting started with decision services in {PRODUCT}
+ifdef::context[:parent-context: {context}]
 // Context attribute is assembly specific and enables module reuse between assemblies.
-:doctype: book
-:imagesdir: _images
-:context: decision-service-getting-started
-include::_artifacts/author-group.adoc[]
+:context: getting-started-decision-services
 
 // Purpose statement for the assembly
 As a business rules developer, you can use {CENTRAL} in {PRODUCT} to design a variety of decision services. {PRODUCT} provides example projects with example business assets directly in {CENTRAL} as a reference. This document describes how to create and test an example traffic violation project based on the *Traffic_Violation* sample project included in {CENTRAL}. This sample project uses a Decision Model and Notation (DMN) model to define driver penalty and suspension rules in a traffic violation decision service. You can follow the steps in this document to create the project and the assets it contains, or open and review the existing *Traffic_Violation* sample project.
@@ -45,5 +40,5 @@ include::{drools-dir}/DMN/dmn-execution-rest-proc.adoc[leveloffset=+2]
 * {URL_MANAGING_PROJECTS}[_{MANAGING_PROJECTS}_]
 * {URL_KIE_APIS}[_{KIE_APIS}_]
 
-// Versioning info
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]

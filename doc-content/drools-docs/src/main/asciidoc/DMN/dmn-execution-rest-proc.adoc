@@ -52,7 +52,7 @@ Example base URL in local deployment:
 `\http://localhost:8080/kie-server/services/rest/`
 endif::[]
 
-ifeval::["{context}" == "decision-service-getting-started"]
+ifeval::["{context}" == "getting-started-decision-services"]
 Example base URL in local deployment for the traffic violations project:
 
 `\http://localhost:8080/kie-server/services/rest/server/containers/traffic-violation_1.0.0`
@@ -149,7 +149,7 @@ Sample JSON output:
 ----
 --
 endif::[]
-ifeval::["{context}" == "decision-service-getting-started"]
+ifeval::["{context}" == "getting-started-decision-services"]
 [source]
 ----
 curl -u wbadmin:wbadmin -H "accept: application/xml" -X GET "http://localhost:8080/kie-server/services/rest/server/containers/traffic-violation_1.0.0/dmn"
@@ -662,7 +662,7 @@ Example XML (JAXB format) response:
 ----
 --
 endif::[]
-ifeval::["{context}" == "decision-service-getting-started"]
+ifeval::["{context}" == "getting-started-decision-services"]
 +
 --
 *[POST]* `server/containers/{containerId}/dmn`
