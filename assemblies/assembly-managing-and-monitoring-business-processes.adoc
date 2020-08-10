@@ -1,13 +1,8 @@
-[id='assembly_managing-and-monitoring-business-processes']
-
-include::_artifacts/document-attributes.adoc[]
-
+[id='assembly-managing-and-monitoring-business-processes']
 = Managing and monitoring business processes in {CENTRAL}
+ifdef::context[:parent-context: {context}]
 // Context attribute is assembly specific and enables module reuse between assemblies.
-:doctype: book
-:imagesdir: _images
 :context: managing-and-monitoring-processes
-include::_artifacts/author-group.adoc[]
 
 // Purpose statement for the assembly
 As a process administrator, you can use {CENTRAL} in {PRODUCT} to manage and monitor process instances and tasks running on a number of projects. From {CENTRAL} you can start a new process instance, verify the state of all process instances, and abort processes. You can view the list of jobs and tasks associated with your processes, as well as understand and communicate any process errors.
@@ -76,5 +71,5 @@ include::{enterprise-dir}/processes/process-instance-migration-deleting-plan-pro
 //include::{enterprise-dir}/admin-and-config/managing-business-central-data-sources-con.adoc[]
 //include::{enterprise-dir}/processes/interacting-with-processes-viewing-process-instance-history-log-proc.adoc[]
 
-//Versioning info
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]

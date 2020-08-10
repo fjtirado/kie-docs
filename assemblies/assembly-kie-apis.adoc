@@ -1,13 +1,8 @@
-[id='assembly_kie-apis']
-
-include::_artifacts/document-attributes.adoc[]
-
+[id='assembly-kie-apis']
 = Interacting with {PRODUCT} using KIE APIs
+ifdef::context[:parent-context: {context}]
 // Context attribute is assembly specific and enables module reuse between assemblies.
-:doctype: book
-:imagesdir: _images
 :context: kie-apis
-include::_artifacts/author-group.adoc[]
 
 // Purpose statement for the assembly
 As a business rules developer or systems administrator, you can use KIE APIs to interact with {KIE_SERVERS}, KIE containers, and business assets in {PRODUCT}. You can use the {KIE_SERVER} REST API and Java client API to interact with KIE containers and business assets (such as business rules, processes, and solvers), the {CONTROLLER} REST API and Java client API to interact with {KIE_SERVER} templates and instances, and the Knowledge Store REST API to interact with spaces and projects in {CENTRAL}.
@@ -121,5 +116,5 @@ endif::[]
 * {URL_MANAGING_KIE_SERVER}[_{MANAGING_KIE_SERVER}_]
 * {URL_PACKAGING_DEPLOYING_PROJECT}[_{PACKAGING_DEPLOYING_PROJECT}_]
 
-//Versioning info
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]

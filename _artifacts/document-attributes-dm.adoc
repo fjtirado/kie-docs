@@ -42,4 +42,4 @@
 :CENTRAL_CAPITAL_UNDER: DECISION_CENTRAL
 :CENTRAL_ONEWORD: decisioncentral
 
-:CONTACT: Red Hat Customer Content Services: brms-docs@redhat.com
+:CONTACT: {PRODUCT} documentation team: brms-docs@redhat.com

@@ -42,4 +42,4 @@
 :CENTRAL_CAPITAL_UNDER: BUSINESS_CENTRAL
 :CENTRAL_ONEWORD: businesscentral
 
-:CONTACT: Red Hat Customer Content Services: brms-docs@redhat.com
+:CONTACT: {PRODUCT} documentation team: brms-docs@redhat.com

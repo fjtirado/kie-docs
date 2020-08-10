@@ -1,13 +1,8 @@
-[id='assembly_managing-assets']
-
-include::_artifacts/document-attributes.adoc[]
-
+[id='assembly-managing-assets']
 = Managing assets in {CENTRAL}
+ifdef::context[:parent-context: {context}]
 // Context attribute is assembly specific and enables module reuse between assemblies.
-:doctype: book
-:imagesdir: _images
 :context: managing-assets
-include::_artifacts/author-group.adoc[]
 
 // Purpose statement for the assembly
 As a process administrator, you can use {CENTRAL} in {PRODUCT} to manage assets, such as rules, business processes, and decision tables.
@@ -37,5 +32,5 @@ include::{enterprise-dir}/admin-and-config/assets-unlocking-proc.adoc[leveloffse
 
 
 
-//Versioning info
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]
