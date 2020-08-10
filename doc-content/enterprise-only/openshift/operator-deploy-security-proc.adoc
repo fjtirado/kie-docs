@@ -5,7 +5,7 @@ After you set the basic configuration of a {PRODUCT} environment using {operator
 
 .Prerequisites
 
-* You completed basic configuration of a {PRODUCT} environment using {operator_name} in the installer wizard according to the instructions in <<operator-deploy-basic-proc>>.
+* You completed basic configuration of a {PRODUCT} environment using {operator_name} in the installer wizard according to the instructions in <<operator-deploy-basic-proc_{context}>>.
 * If you want to use RH-SSO or LDAP for authentication, you created users with the correct roles in your authentication system. You must create at least one administrative user (for example, `adminUser`) with the `kie-server,rest-all,admin` roles. This user must have the user name and password that you configured on the *Installation* tab.
 * If you want to use RH-SSO authentication, you created the clients in your RH-SSO system for all components of your environment, specifying the correct URLs. This action ensures maximum control. Alternatively, the deployment can create the clients.
 
@@ -55,7 +55,7 @@ To enable the use of this file, make the following changes:
 .. In the fields under *RoleMapper Configuration object*, select the *Kind* of the object that provides the file (`ConfigMap` or `Secret`) and enter the *Name* of the object. This object is automatically mounted on {CENTRAL} and {KIE_SERVER} pods in the path that you specified for the role mapping configuration file.
 . Configure other passwords, if necessary:
 ** *AMQ password* and *AMQ cluster password* are passwords for interaction with ActiveMQ using the JMS API.
-** *Keystore password* is the password for the keystore files used in secrets for HTTPS communication. Set this password if you created secrets according to instructions in <<secrets-kie-create-proc>> or <<secrets-central-create-proc>>.
+** *Keystore password* is the password for the keystore files used in secrets for HTTPS communication. Set this password if you created secrets according to instructions in <<secrets-kie-create-proc_{context}>> or <<secrets-central-create-proc_{context}>>.
 ** *Database password* is the password for database server pods that are a part of the environments.
 
 

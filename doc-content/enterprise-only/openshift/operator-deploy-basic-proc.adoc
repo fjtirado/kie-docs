@@ -5,7 +5,7 @@ After you start to deploy a {PRODUCT} environment using {operator_name}, you mus
 
 .Prerequisites
 
-* You started to deploy a {PRODUCT} environment using {operator_name} and accessed the installer wizard according to the instructions in <<operator-deploy-start-proc>>.
+* You started to deploy a {PRODUCT} environment using {operator_name} and accessed the installer wizard according to the instructions in <<operator-deploy-start-proc_{context}>>.
 
 .Procedure
 . In the *Application Name* field, enter a name for the OpenShift application. This name is used in the default URLs for all components.

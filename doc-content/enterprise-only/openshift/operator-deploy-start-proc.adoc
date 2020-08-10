@@ -5,7 +5,7 @@ To start deploying a {PRODUCT} environment using {operator_name}, access the ins
 
 .Prerequisites
 
-* You subscribed to {operator_name}. For instructions about subscribing to the operator, see <<operator-subscribe-proc>>.
+* You subscribed to {operator_name}. For instructions about subscribing to the operator, see <<operator-subscribe-proc_{context}>>.
 
 .Procedure
 

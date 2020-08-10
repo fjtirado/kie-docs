@@ -5,7 +5,7 @@ The high-availability (HA) CEP server runs on the {OPENSHIFT} environment. It in
 
 Prepare the source, build it, and then deploy it on {OPENSHIFT}.
 
-Alternatively, use a different process to deploy the HA CEP server where you can update the KJAR service at any time. For instructions about this process, see <<hacep-server-maven-proc>>.
+Alternatively, use a different process to deploy the HA CEP server where you can update the KJAR service at any time. For instructions about this process, see <<hacep-server-maven-proc_{context}>>.
 
 .Prerequisites
 

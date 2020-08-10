@@ -9,7 +9,7 @@ In {PRODUCT} {PRODUCT_VERSION}, high-availability {CENTRAL} functionality is for
 ====
 
 .Prerequisites
-* You ensured the availability of image streams and the image registry for {PRODUCT} according to the instructions in <<imagestreams-file-install-proc>>.
+* You ensured the availability of image streams and the image registry for {PRODUCT} according to the instructions in <<imagestreams-file-install-proc_{context}>>.
 
 .Procedure
 

@@ -37,7 +37,7 @@ endif::DM[]
 ifdef::rwm-gluster[]
 [NOTE]
 ====
-If you want to deploy a high-availability authoring environment, for optimal performance and reliability, provision persistent volumes using GlusterFS. Configure the GlusterFS storage class as described in <<glusterfs-reconfig-proc>>.
+If you want to deploy a high-availability authoring environment, for optimal performance and reliability, provision persistent volumes using GlusterFS. Configure the GlusterFS storage class as described in <<glusterfs-reconfig-proc_{context}>>.
 ====
 endif::rwm-gluster[]
 endif::rwm-authoring[]
