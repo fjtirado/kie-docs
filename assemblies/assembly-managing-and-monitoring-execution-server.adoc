@@ -1,16 +1,11 @@
-[id='assembly_managing-and-monitoring-execution-server']
-
-include::_artifacts/document-attributes.adoc[]
-
+[id='assembly-managing-and-monitoring-execution-server']
 = Managing and monitoring {KIE_SERVER}
+ifdef::context[:parent-context: {context}]
 // Context attribute is assembly specific and enables module reuse between assemblies.
-:doctype: book
-:imagesdir: _images
 :context: execution-server
-include::_artifacts/author-group.adoc[]
 
 // Purpose statement for the assembly
-As a systems administrator, you can install, configure, and upgrade {PRODUCT} for production environments, quickly and easily troubleshoot system failures, and ensure that systems are running optimally.
+As a system administrator, you can install, configure, and upgrade {PRODUCT} for production environments, quickly and easily troubleshoot system failures, and ensure that systems are running optimally.
 
 .Prerequisites
 * {EAP_LONG} {EAP_VERSION} is installed. For more information, see  https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.3/html-single/installation_guide/[_{EAP_LONG} {EAP_VERSION} Installation Guide_].
@@ -133,5 +128,5 @@ ifdef::DM[]
 endif::[]
 * {URL_DEPLOYING_OPENSHIFT_OPERATOR}[_{DEPLOYING_OPENSHIFT_OPERATOR}_]
 
-//Versioning info
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]
