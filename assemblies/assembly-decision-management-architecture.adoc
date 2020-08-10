@@ -1,13 +1,8 @@
-[id='assembly_decision-management-architecture']
-
-include::_artifacts/document-attributes.adoc[]
-
+[id='assembly-decision-management-architecture']
 = Designing your decision management architecture for {PRODUCT}
+ifdef::context[:parent-context: {context}]
 // Context attribute is assembly specific and enables module reuse between assemblies.
-:doctype: book
-:imagesdir: _images
 :context: decision-management-architecture
-include::_artifacts/author-group.adoc[]
 
 // Purpose statement for the assembly
 As a business analyst, system administrator, or business rules developer, the types of {PRODUCT} business assets that you create and the way in which you develop, store, execute, and deploy those assets varies based on the needs of your business automation environment. You can design a decision management architecture that uses {CENTRAL} or an external integrated development environment (IDE) for asset development, a built-in or external Git repository for storage and version control, a {KIE_SERVER} or embedded application for deployment, or other implementation combinations. You can also deploy {PRODUCT} into a {OPENSHIFT} environment for an enhanced containerized implementation.
@@ -36,5 +31,5 @@ ifdef::PAM[]
 endif::[]
 * {URL_PACKAGING_DEPLOYING_PROJECT}[_{PACKAGING_DEPLOYING_PROJECT}_]
 
-// Versioning info
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]
