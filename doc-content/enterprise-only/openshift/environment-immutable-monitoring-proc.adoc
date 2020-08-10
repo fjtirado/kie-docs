@@ -1,4 +1,4 @@
-[id='environment-immutable-monitoring-proc']
+[id='environment-immutable-monitoring-proc_{context}']
 // definitions for RH-SSO include
 :centralonly:
 // centralonly must be undefined at end of file

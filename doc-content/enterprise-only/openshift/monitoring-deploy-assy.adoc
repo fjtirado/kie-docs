@@ -1,4 +1,4 @@
-[id='monitoring-deploy-assy']
+[id='monitoring-deploy-assy_{context}']
 = Deploying {CENTRAL} Monitoring and Smart Router for an environment with immutable servers
 
 ifdef::context[:parent-context: {context}]

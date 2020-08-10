@@ -1,4 +1,4 @@
-[id='hacep-client-proc']
+[id='hacep-client-proc_{context}']
 = Creating the HA CEP client
 
 You must adapt your CEP client code to communicate with the HA CEP server image. Use the sample project included in the reference implementation for your client code. You can run your client code inside or outside the OpenShift environment.

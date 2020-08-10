@@ -1,4 +1,4 @@
-[id='operator-deploy-basic-proc']
+[id='operator-deploy-basic-proc_{context}']
 = Setting the basic configuration of the environment
 
 After you start to deploy a {PRODUCT} environment using {operator_name}, you must select the type of the environment and set other basic configuration.
@@ -52,7 +52,7 @@ Disable automatic updates if you want to use a custom image for any component of
 ====
 +
 . If you want to use a custom image registry, under *Custom registry*, enter the URL of the registry in the *Image registry* field. If this registry does not have a properly signed and recognized SSL certificate, select the *Insecure* box.
-. Under *Admin user*, enter the user name and password for the administrative user for {PRODUCT} in the *Username* and *Password* fields. 
+. Under *Admin user*, enter the user name and password for the administrative user for {PRODUCT} in the *Username* and *Password* fields.
 +
 [IMPORTANT]
 ====

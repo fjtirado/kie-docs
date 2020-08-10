@@ -227,7 +227,7 @@ For more information about creating custom images, see {URL_DEPLOYING_OPENSHIFT_
 
 === SSH authentication for Git hooks on {OPENSHIFT} 4.x
 When configuring Git hooks for {CENTRAL} on {OPENSHIFT} 4.x, you can now configure SSH authentication for access to custom Git repositories.
-For more information about preparing Git hooks for deployment, see {URL_DEPLOYING_OPENSHIFT_OPERATOR}/dm-openshift-prepare-con#githooks-prepare-proc-openshift-operator[Preparing Git hooks] in _{DEPLOYING_OPENSHIFT_OPERATOR}_.
+For more information about preparing Git hooks for deployment, see {URL_DEPLOYING_OPENSHIFT_OPERATOR}/dm-openshift-prepare-con#githooks-prepare-proc_openshift-operator[Preparing Git hooks] in _{DEPLOYING_OPENSHIFT_OPERATOR}_.
 
 === Metering labels for images in {OPENSHIFT}
 {PRODUCT} images for {OPENSHIFT} now have labels that enable the use of OpenShift metering. For more information about using metering, see https://access.redhat.com/documentation/en-us/openshift_container_platform/4.4/html/metering/index[_Metering_] in {OPENSHIFT} documentation.

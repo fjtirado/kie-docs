@@ -1,4 +1,4 @@
-[id='operator-deploy-smartrouter-proc']
+[id='operator-deploy-smartrouter-proc_{context}']
 = Setting Smart Router configuration for the environment
 
 By default, the deployed environment does not include Smart Router. You can add a Smart Router to the environment. You can also set configuration options for the Smart Router.

@@ -1,4 +1,4 @@
-[id='additional-server-managed-deploy-assy']
+[id='additional-server-managed-deploy-assy_{context}']
 = Deploying an additional managed {KIE_SERVER} for an authoring or managed environment
 
 ifdef::context[:parent-context: {context}]

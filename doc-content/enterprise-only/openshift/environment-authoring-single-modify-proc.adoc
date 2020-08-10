@@ -1,4 +1,4 @@
-[id='environment-authoring-single-modify-proc']
+[id='environment-authoring-single-modify-proc_{context}']
 = Modifying the template for the single authoring environment
 
 By default, the single authoring template uses the H2 database with permanent storage. If you prefer to create a MySQL or PostgreSQL pod or to use an external database server (outside the OpenShift project), modify the template before deploying the environment.

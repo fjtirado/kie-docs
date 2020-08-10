@@ -1,4 +1,4 @@
-[id='environment-managed-modify-proc']
+[id='environment-managed-modify-proc_{context}']
 = Modifying a template for a managed environment
 
 To adjust the managed environment to your needs, you need to modify the  `{PRODUCT_INIT}{ENTERPRISE_VERSION_SHORT}-prod.yaml` template before deploying the environment.

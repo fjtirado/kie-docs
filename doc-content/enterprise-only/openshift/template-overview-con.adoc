@@ -1,4 +1,4 @@
-[id='template-overview-con']
+[id='template-overview-con_{context}']
 = OpenShift template reference information
 
 {PRODUCT} provides the following OpenShift templates. To access the templates, download and extract the `{PRODUCT_FILE}-openshift-templates.zip` product deliverable file from the {PRODUCT_DOWNLOAD_LINK}[Software Downloads] page of the Red Hat customer portal.

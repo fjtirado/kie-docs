@@ -1,4 +1,4 @@
-[id='hacep-con']
+[id='hacep-con_{context}']
 = High available event-driven decisioning on {OPENSHIFT}
 
 Use the {DECISION_ENGINE} to implement high available event-driven decisioning on {OPENSHIFT}.
@@ -13,7 +13,7 @@ Implement high available event-driven decisioning on {OPENSHIFT} based on the re
 
 In this reference implementation, you can scale the pod with the processing code. The replicas of the pod are not independent. One of the replicas is automatically designated _leader_. If the leader ceases to function, another replica is automatically made leader and the processing continues without interruption or data loss.
 
-The election of the leader is implemented with Kubernetes ConfigMaps. Coordination of the leader with other replicas is performed with exchanged messages through Kafka. The leader is always the first to process an event. When processing is complete, the leader notifies other replicas. A replica that is not the leader starts executing an event only after it has been completely processed on the leader. 
+The election of the leader is implemented with Kubernetes ConfigMaps. Coordination of the leader with other replicas is performed with exchanged messages through Kafka. The leader is always the first to process an event. When processing is complete, the leader notifies other replicas. A replica that is not the leader starts executing an event only after it has been completely processed on the leader.
 
 When a new replica joins the cluster, this replica requests a snapshot of the current {PRODUCT_DROOLS} session from the leader. The leader can use a recent existing snapshot if one is available in a Kafka topic. If a recent snapshot is not available, the leader produces a new snapshot on demand. After receiving the snapshot, the new replica deserializes it and eventually executes the last events not included in the snapshot before starting to process new events in coordination with the leader.
 

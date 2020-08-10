@@ -1,4 +1,4 @@
-[id='environment-immutable-con']
+[id='environment-immutable-con_{context}']
 = Environment with immutable servers
 You can deploy an environment that includes one or more pods running _immutable_ {KIE_SERVER} with preloaded services.
 ifdef::PAM[The database servers are, by default, also run in pods.]

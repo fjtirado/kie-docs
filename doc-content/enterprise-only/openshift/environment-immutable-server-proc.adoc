@@ -1,4 +1,4 @@
-[id='environment-immutable-server-proc']
+[id='environment-immutable-server-proc_{context}']
 // definitions for RH-SSO include
 :kieonly:
 // kieonly must be undefined at end of file

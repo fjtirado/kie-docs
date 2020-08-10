@@ -1,4 +1,4 @@
-[id='environment-authoring-single-proc']
+[id='environment-authoring-single-proc_{context}']
 // definitions for RH-SSO include
 :kieandcentral:
 :LOCAL_CENTRAL: {CENTRAL}
