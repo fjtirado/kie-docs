@@ -1,14 +1,8 @@
-[id='assembly_optimizer-modifying-ER-template-IDE']
-
-include::_artifacts/document-attributes.adoc[]
-
+[id='assembly-optimizer-modifying-ER-template-IDE']
 = Running and modifying the employee rostering starter application for {PLANNER} using an IDE
+ifdef::context[:parent-context: {context}]
 // Context attribute is assembly specific and enables module reuse between assemblies.
-:doctype: book
-:imagesdir: _images
 :context: employee-rostering-ide
-include::_artifacts/author-group.adoc[]
-
 
 // Purpose statement for the assembly
 As a business rules developer, you can use an IDE to build, run, and modify the `optaweb-employee-rostering` starter application that uses the {PLANNER} functionality.
@@ -32,5 +26,5 @@ include::{enterprise-dir}/employee-rostering/optashift-ER-modifying-proc.adoc[le
 // include::{enterprise-dir}/employee-rostering/optashift-ER-modifying-sample-weekend-proc.adoc[leveloffset=+2]
 // sample dropped for 7.1 GA as Christopher could not get it to work because of an apparent Drools bug
 
-// Versioning info
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]

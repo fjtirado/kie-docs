@@ -1,13 +1,7 @@
-[id='assembly_business-optimizer-vrp']
-
-include::_artifacts/document-attributes.adoc[]
-
+[id='assembly-business-optimizer-vrp']
 = Deploying and using the vehicle route planning starter application for {PLANNER}
-
-:doctype: book
-:imagesdir: _images
+ifdef::context[:parent-context: {context}]
 :context: business-optimizer-vrp
-//include::_artifacts/author-group.adoc[]
 
 As a developer, you can use the OptaWeb Vehicle Routing starter application to optimize your vehicle fleet deliveries.
 
@@ -97,9 +91,8 @@ include::{enterprise-dir}/vehicle-route-planning/vrp-backend-logging-con.adoc[le
 include::{enterprise-dir}/vehicle-route-planning/vrp-frontend-proc.adoc[leveloffset=+2]
 //include::{enterprise-dir}/vehicle-route-planning/n.adoc[leveloffset=+1]
 //include::{enterprise-dir}/vehicle-route-planning/n.adoc[leveloffset=+1]
-[appendix]
 include::{enterprise-dir}/vehicle-route-planning/backend-architecture-con.adoc[leveloffset=+1]
-[appendix]
 include::{enterprise-dir}/vehicle-route-planning/backend-properties-ref.adoc[leveloffset=+1]
 
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]

@@ -1,11 +1,6 @@
-[id='assembly_business-optimizer-springboot']
-
-include::_artifacts/document-attributes.adoc[]
-
+[id='assembly-business-optimizer-springboot']
 = Using {PLANNER} with Spring Boot
-
-:doctype: book
-:imagesdir: _images
+ifdef::context[:parent-context: {context}]
 :context: business-optimizer-spring-boot
 
 
@@ -79,5 +74,5 @@ endif::COMMUNITY[]
 
 
 
-// Versioning info
-include::_artifacts/versioning-information.adoc[]
+ifdef::parent-context[:context: {parent-context}]
+ifndef::parent-context[:!context:]
