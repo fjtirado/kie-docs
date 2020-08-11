@@ -8,6 +8,3 @@
 . Download the `{PRODUCT_FILE}-add-ons.zip` file from the {PRODUCT} section of the https://access.redhat.com/downloads[Red Hat Customer Portal].
 . Extract the {PLANNING_ENGINE} from the `{PRODUCT_FILE}-{URL_COMPONENT_PLANNING_ENGINE}.zip` file to access the complete set of {PLANNING_ENGINE} JAR files.
 . xref:optimizer-running-the-examples-proc[Run the examples].
-
-
-See {URL_MIGRATING_BRMS_TO_DM}[_{MIGRATING_BRMS_TO_DM}_] for information about migrating from previous versions of {PLANNER}.

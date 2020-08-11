@@ -61,9 +61,6 @@ include::{enterprise-dir}/installation/ldap-ssl-con.adoc[leveloffset=+1]
 
 
 
-//== Related information
-//* {URL_INSTALLING_PLANNER}[_{INSTALLING_PLANNER}_]
-
 //== Next steps
 //* {URL_GETTING_STARTED_PROCESSES}[_{GETTING_STARTED_PROCESSES}_]
 

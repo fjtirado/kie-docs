@@ -45,7 +45,7 @@ include::{enterprise-dir}/installation/sso-int-con.adoc[leveloffset=+1]
 * {URL_INSTALLING_ON_EAP}[_{INSTALLING_ON_EAP}_]
 * {URL_INSTALLING_ON_EAP_CLUSTER}[_{INSTALLING_ON_EAP_CLUSTER}_]
 * {URL_INSTALLING_ON_JWS}[_{INSTALLING_ON_JWS}_]
-* {URL_INSTALLING_KIE_ON_WAS}[_{INSTALLING_KIE_ON_WAS}_]
+* {URL_INSTALLING_AND_CONFIGURING}#assembly-installing-kie-server-on-was[_{INSTALLING_KIE_ON_WAS}_]
 * {URL_INSTALLING_KIE_ON_WLS}[_{INSTALLING_KIE_ON_WLS}_]
 
 .Integration

@@ -48,7 +48,6 @@ include::{enterprise-dir}/admin-and-config/customizing-dashbuilder-con.adoc[leve
 
 == Additional resources
 
-//* {URL_INSTALLING_PLANNER}[_{INSTALLING_PLANNER}_]
 * {URL_INSTALLING_ON_EAP_CLUSTER}[_{INSTALLING_ON_EAP_CLUSTER}_]
 //* {URL_INTEGRATING_CRS}[_{INTEGRATING_CRS}_]
 
