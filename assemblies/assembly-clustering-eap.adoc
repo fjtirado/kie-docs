@@ -8,7 +8,7 @@ ifdef::context[:parent-context: {context}]
 As a system engineer, you can create a {PRODUCT} clustered environment to provide high availability and load balancing for your development and runtime environments.
 
 .Prerequisites
-* You have reviewed the information in {URL_PLANNING_INSTALL}[_{PLANNING_INSTALL}_].
+* You have reviewed the information in {URL_INSTALLING_AND_CONFIGURING}#assembly-planning[_{PLANNING_INSTALL}_].
 
 include::{enterprise-dir}/installation/clustering-con.adoc[leveloffset=+1]
 :context: clustering-dev
@@ -51,8 +51,8 @@ include::{enterprise-dir}/installation/clustering-quartz-proc.adoc[leveloffset=+
 endif::PAM[]
 
 == Additional resources
-* {URL_INSTALLING_ON_EAP}[_{INSTALLING_ON_EAP}_]
-* {URL_PLANNING_INSTALL}[_{PLANNING_INSTALL}_]
+* {URL_INSTALLING_AND_CONFIGURING}#assembly-install-on-eap[_{INSTALLING_ON_EAP}_]
+* {URL_INSTALLING_AND_CONFIGURING}#assembly-planning[_{PLANNING_INSTALL}_]
 * {URL_DEPLOYING_IMMUTABLE_ON_OPENSHIFT}[_{DEPLOYING_IMMUTABLE_ON_OPENSHIFT}_]
 ifdef::PAM[]
 * {URL_DEPLOYING_AUTHORING_ON_OPENSHIFT}[_{DEPLOYING_AUTHORING_ON_OPENSHIFT}_]
